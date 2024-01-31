@@ -47,7 +47,7 @@
     "@aws-cdk/aws-lambda": "^1.204.0",
     "@aws-cdk/aws-lambda-nodejs": "^1.204.0",
     "@aws-cdk/aws-s3": "^1.204.0",
-    "@aws-cdk/aws-ses": "^1.204.0",
+    "@aws-cdk/aws-ses": "^1.204.0"
   },
   "dependencies": {
     "aws-cdk-lib": "2.122.0",

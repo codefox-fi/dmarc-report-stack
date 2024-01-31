@@ -5,10 +5,9 @@ import * as dotenv from "dotenv";
 
 import { DmarcStack } from "../lib/dmarc-stack";
 import { DmarcStackProps } from "../lib/types";
+import path = require("path");
 
-dotenv.config({
-  path: "../.env",
-});
+dotenv.config();
 
 const props: DmarcStackProps = {
   env: {
