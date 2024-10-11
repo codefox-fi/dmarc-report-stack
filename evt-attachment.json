@@ -1,0 +1,38 @@
+{
+  "Records": [
+      {
+          "eventVersion": "2.1",
+          "eventSource": "aws:s3",
+          "awsRegion": "eu-west-1",
+          "eventTime": "2024-01-30T13:43:53.921Z",
+          "eventName": "ObjectCreated:Put",
+          "userIdentity": {
+              "principalId": "AWS:AROASXCE3TSYXTSEDVZLD:DmarcStack-EmailProcessorFunction682B3C2D-qfQ5GjBjK315"
+          },
+          "requestParameters": {
+              "sourceIPAddress": "3.254.106.3"
+          },
+          "responseElements": {
+              "x-amz-request-id": "7K11H3692SB5TBT8",
+              "x-amz-id-2": "F6ep5Pce4WhnES6KIUKT2kQXxdNOK4f1h8gv1+sKOO1d35mQB0MagJa1j99jf+d5EcOrkmfRpwww1gpqbwFOBNCXnwuFoQUK"
+          },
+          "s3": {
+              "s3SchemaVersion": "1.0",
+              "configurationId": "OWIwZmY2YzYtOGVjMC00YWI4LWIzZDAtNGJiZTdhNDY3N2E3",
+              "bucket": {
+                  "name": "dmarcstack-attachmentsbucket8e14a36f-m1ivq7d2e833",
+                  "ownerIdentity": {
+                      "principalId": "A2KW5H7DL28DJO"
+                  },
+                  "arn": "arn:aws:s3:::dmarcstack-attachmentsbucket8e14a36f-m1ivq7d2e833"
+              },
+              "object": {
+                  "key": "google.com%21codefox.fi%211706486400%211706572799.xml",
+                  "size": 1947,
+                  "eTag": "8cb08537841ff0aff3ec3cb362e2af2f",
+                  "sequencer": "0065B8FD19E094BDDC"
+              }
+          }
+      }
+  ]
+}

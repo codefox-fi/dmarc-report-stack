@@ -1,0 +1,38 @@
+{
+  "Records": [
+      {
+          "eventVersion": "2.1",
+          "eventSource": "aws:s3",
+          "awsRegion": "eu-west-1",
+          "eventTime": "2024-01-30T14:25:17.766Z",
+          "eventName": "ObjectCreated:Put",
+          "userIdentity": {
+              "principalId": "AWS:AROARFXQGN2LNAZ63NINL:88ea5af08e0b4e4c855769eeec2f9876"
+          },
+          "requestParameters": {
+              "sourceIPAddress": "10.0.45.152"
+          },
+          "responseElements": {
+              "x-amz-request-id": "VRTCZXTMDPPS4DH0",
+              "x-amz-id-2": "KRJxu1bk+q3zXuoD9WJLG3J+syWneOZ9UumxH7Zxu5ZuRfS3f/x8bCanKtqKAT15I8H44nZmKkng+nV8dXlbiiOAPqB77KTE"
+          },
+          "s3": {
+              "s3SchemaVersion": "1.0",
+              "configurationId": "ODQwOTU3ZjEtZWRjYS00NTM3LWI0YTAtMTYwMjExOWZlN2Rm",
+              "bucket": {
+                  "name": "dmarcstack-incomingemailsbucket6251efa3-bw2law00j7cg",
+                  "ownerIdentity": {
+                      "principalId": "A2KW5H7DL28DJO"
+                  },
+                  "arn": "arn:aws:s3:::dmarcstack-incomingemailsbucket6251efa3-bw2law00j7cg"
+              },
+              "object": {
+                  "key": "n9t9b7jht3m9ivbimladjdsgbet0nnmnalqe9mg1",
+                  "size": 12151,
+                  "eTag": "1386e331a3deaf17cc78aa37f3187021",
+                  "sequencer": "0065B906CDBA0A9206"
+              }
+          }
+      }
+  ]
+}

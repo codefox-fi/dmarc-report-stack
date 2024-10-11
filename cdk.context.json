@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=186975493297:domainName=codefox.fi:region=eu-west-1": {
+    "Id": "/hostedzone/Z04116962I5P1LLI7DV2L",
+    "Name": "codefox.fi."
+  },
+  "hosted-zone:account=186975493297:domainName=codefox.fi:region=eu-north-1": {
+    "Id": "/hostedzone/Z04116962I5P1LLI7DV2L",
+    "Name": "codefox.fi."
+  }
+}
