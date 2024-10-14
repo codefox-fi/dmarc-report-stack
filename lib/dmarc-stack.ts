@@ -1,4 +1,3 @@
-import { RemovalPolicy } from 'aws-cdk-lib';
 import { Duration, Stack, StackProps } from 'aws-cdk-lib/core';
 import { Bucket, EventType } from 'aws-cdk-lib/aws-s3';
 import { Architecture, Code, Function, Runtime } from 'aws-cdk-lib/aws-lambda';
